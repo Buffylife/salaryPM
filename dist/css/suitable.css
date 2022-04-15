@@ -1,0 +1,132 @@
+.suitable {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding-top: 110px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.suitable__title {
+  color: #333;
+  font-family: PT Sans Caption;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.suitable__description {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  padding-top: 23px;
+  text-align: left;
+}
+
+.suitable__tabs {
+  padding-top: 40px;
+}
+
+.suitable__btn {
+  margin-right: 24px;
+}
+
+.suitable__tabContainerMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  width: 1200px;
+}
+
+.suitable__tabContainerLeft {
+  padding-right: 29px;
+  max-width: 583px;
+  width: 100%;
+}
+
+.suitable__tabContainerTitle {
+  color: #333;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  padding-bottom: 33px;
+  text-align: left;
+}
+
+.suitable__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.suitable__itemIcon {
+  padding-right: 24px;
+  max-height: 16px;
+  max-width: 11px;
+}
+
+.suitable__itemText {
+  color: #333;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.suitable__tabs-js {
+  background: #FFFFFF;
+  border: 2px solid #EAEAEA;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
+  color: #333;
+  cursor: pointer;
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 15px 35px;
+  text-align: left;
+}
+
+.suitable__tabs-js.jsTabActive {
+  color: #ff6600;
+  background: #FFFFFF;
+  border: 2px solid #FF6600;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 39px;
+}
+
+.suitable__tabContainer {
+  display: none;
+  height: 244px;
+}
+
+.suitable__tabContainer.jsTabActive {
+  display: block;
+}
+
+@media (max-width: 1366px) {
+  .suitable {
+    padding-top: 90px;
+  }
+}

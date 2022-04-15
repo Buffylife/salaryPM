@@ -1,0 +1,117 @@
+.comparison {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 110px;
+  width: 100%;
+}
+
+.comparison__title {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #333;
+  font-family: PT Sans Caption;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+.comparison__grid {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 10px 10px;
+}
+
+.comparison__gridRow {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.comparison__gridCaption {
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: PT Sans Caption;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 47px 104px 25px 60px;
+}
+
+.comparison__gridCaptionComp {
+  padding-right: 356px;
+  width: 440px;
+}
+
+.comparison__gridCaptionCorp {
+  padding-right: 158px;
+}
+
+.comparison__gridText {
+  color: #333333;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-left: 60px;
+  padding-right: 158px;
+  width: 660px;
+}
+
+.comparison__gridMinus {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: #FF6600;
+  height: 3px;
+  max-width: 12px;
+  padding-right: 128px;
+}
+
+.comparison__gridCheck {
+  justify-items: flex-end;
+  height: 11px;
+  max-width: 16px;
+  padding-left: 73px;
+  padding-right: 123px;
+}
+
+.comparison__gridBorder {
+  clear: inherit;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+.gridProperties {
+  height: 64px;
+}
+
+@media (max-width: 1366px) {
+  .comparison {
+    padding-top: 90px;
+  }
+}

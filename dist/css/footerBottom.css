@@ -1,0 +1,158 @@
+.footerBottom {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 81px;
+  padding-bottom: 35px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footerBottom__logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-right: 36px;
+}
+
+.footerBottom__address {
+  color: #333;
+  padding-right: 81px;
+  width: 321px;
+}
+
+.footerBottom__addressPhone {
+  font-family: PT Sans Caption;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 321px;
+}
+
+.footerBottom__addressText {
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-top: 14px;
+  text-align: left;
+}
+
+.footerBottom__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerBottom__icon {
+  padding-right: 10px;
+}
+
+.footerBottom__icon icon-svg {
+  height: 52px;
+  width: 52px;
+}
+
+.footerBottom__icon .icon-svg {
+  height: 52px;
+  width: 52px;
+}
+
+.footerBottom__icon:last-child {
+  padding-right: 43px;
+}
+
+.footerBottom__shop {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.footerLine {
+  color: #333333;
+  background-color: #F4F4F4;
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 400;
+  height: 64px;
+  line-height: 18px;
+  letter-spacing: 0em;
+}
+
+.footerLine__offer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 64px;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footerLine__offerLink {
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 1366px) {
+  .footerBottom {
+    padding-top: 53px;
+    max-width: 1000px;
+  }
+
+  .footerBottom__laptop {
+    display: none;
+  }
+
+  .footerBottom__shopGoogle {
+    display: none;
+  }
+
+  .footerBottom__logo {
+    padding-right: 22px;
+  }
+
+  .footerBottom__address {
+    padding-right: 22px;
+  }
+
+  .footerBottom__addressText {
+    padding-top: 4px;
+  }
+
+  .footerBottom__icon {
+    padding-right: 5.5px;
+  }
+
+  .footerBottom__icon:last-child {
+    padding-right: 13px;
+  }
+
+  .footerBottom__icon icon-svg {
+    height: 48px;
+    width: 48px;
+  }
+
+  .footerLine__offer {
+    max-width: 1000px;
+    width: 100%;
+  }
+}

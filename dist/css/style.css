@@ -1,0 +1,165 @@
+.header__container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 83px;
+}
+
+.header__logo {
+  max-width: 80px;
+  max-height: 51px;
+  padding-right: 40px;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 475px;
+}
+
+.header__menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header__menu-listItem {
+  padding-left: 30px;
+}
+
+.header__menu-listLink {
+  color: #333;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400, Regular;
+  text-decoration: none;
+}
+
+.header__menu-listIcon {
+  color: #333;
+  height: 4px;
+  padding-left: 10px;
+  width: 8px;
+}
+
+.header__search {
+  padding-left: 50px;
+  max-height: 17px;
+  max-width: 17px;
+}
+
+.header__phone {
+  font-family: PT Sans Caption;
+  font-size: 15px;
+  font-weight: 700;
+  color: #6F6F6F;
+  padding-left: 38px;
+}
+
+.header__regIcon {
+  color: #6F6F6F;
+  max-height: 17px;
+  max-width: 17px;
+  padding-left: 103px;
+}
+
+.header__registration {
+  font-family: "PT Sans";
+  font-size: 14px;
+  padding-left: 11px;
+}
+
+.header__registration-press {
+  color: #6F6F6F;
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header__registration-reg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 700;
+  background: #FF6600;
+  border-radius: 50px;
+  height: 48px;
+  line-height: 18px;
+  margin-left: 20px;
+  text-align: center;
+  width: 160px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 1366px) {
+  .container {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .header__logo {
+    padding-right: 30px;
+  }
+
+  .header__regIcon {
+    display: none;
+  }
+
+  .header__menu-listItem {
+    padding-left: 20px;
+  }
+
+  .header__search {
+    padding-left: 30px;
+  }
+
+  .header__phone {
+    padding-left: 32px;
+  }
+
+  .header__registration {
+    padding-left: 34px;
+  }
+
+  .header__registration-reg {
+    width: 150px;
+  }
+}

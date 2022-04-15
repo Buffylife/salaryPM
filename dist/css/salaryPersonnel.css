@@ -1,0 +1,110 @@
+.salaryPersonnel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 136px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.salaryPersonnel__content {
+  max-width: 690px;
+  width: 100%;
+}
+
+.salaryPersonnel__title {
+  color: #333;
+  font-family: PT Sans Caption;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.salaryPersonnel__price {
+  color: #FF6600;
+  font-family: PT Sans Caption;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  padding-top: 29px;
+  text-align: left;
+}
+
+.salaryPersonnel__description {
+  color: #333;
+  font-family: PT Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  padding: 31px 0 40px 0;
+  text-align: left;
+  max-width: 628px;
+  width: 100%;
+}
+
+.salaryPersonnel__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 700;
+  background: #FF6600;
+  border-radius: 45px;
+  height: 48px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0em;
+  color: #fff;
+  text-decoration: none;
+  max-width: 288px;
+}
+
+.salaryPersonnel__footnote {
+  color: #999;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 16px;
+}
+
+.salaryPersonnel__img {
+  padding-left: 42px;
+}
+
+.salaryPersonnel__img img {
+  max-width: 484px;
+  width: 100%;
+}
+
+@media (max-width: 1366px) {
+  .salaryPersonnel {
+    padding-top: 109px;
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .salaryPersonnel__content {
+    max-width: 568px;
+    width: 100%;
+  }
+}
