@@ -1,0 +1,180 @@
+@media (max-width: 1366px) {
+  .priceInput {
+    padding-top: 90px;
+
+    &_begin {
+      padding-top: 109px;
+    }
+
+    &__item {
+      padding-top: 30px;
+    }
+    &__formItem {
+      width: 246px;
+      padding: 0 20px;
+    }
+    &__btn {
+      margin-bottom: 138px;
+      width: 289px;
+    }
+    &__footnote{
+      display: none;
+    }
+  }
+}
+
+.priceInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 110px;
+  max-width: 1200px;
+  width: 100%;
+
+  &__title {
+    align-self: flex-start;
+    color: #333;
+    font-family: PT Sans Caption;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__titleOrange {
+    color: #ff6600;
+  }
+
+  &__container {
+    align-self: flex-start;
+    padding-top: 50px;
+  }
+
+  &__form {
+    align-items: center;
+    display: flex;
+  }
+
+  &__formInput {
+    display: flex;
+  }
+
+  &__formItem {
+    border: 1px solid #b6b6b6;
+    border-radius: 0.25rem;
+    color: #6f6f6f;
+    line-height: 0;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 400;
+    height: 58px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    margin-right: 24px;
+    outline: none;
+    padding: 0 27px;
+    text-align: left;
+    width: 304px;
+  }
+
+  &__formItem:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  &__formItem:focus::input-placeholder {
+    color: transparent;
+  }
+
+  &__formPhone {
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    outline: none;
+    width: 219px;
+  }
+
+  &__formItem:focus {
+    border: 1px solid #b6b6b6;
+  }
+
+  &__formPhone:focus {
+    border-left: none;
+  }
+
+  &__select {
+    border: 1px solid #b6b6b6;
+    border-right: none;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    color: #6f6f6f;
+    cursor: pointer;
+    font-family: PT Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    outline: none;
+    padding-left: 26px;
+    text-align: left;
+  }
+
+  &__formFootnote {
+    color: #6F6F6F;
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    padding-top: 5px;
+    text-align: left;
+
+  }
+
+  &__item {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 33px;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PT Sans Caption;
+    font-size: 14px;
+    font-weight: 700;
+    background: #FF6600;
+    border-radius: 45px;
+    height: 48px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #fff;
+    text-decoration: none;
+    width: 319px;
+  }
+
+  &__footnote {
+    font-family: PT Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    padding-left: 30px;
+    text-align: left;
+
+  }
+
+  &__footnoteLink {
+    color: #ff6600;
+  }
+
+}
+
+

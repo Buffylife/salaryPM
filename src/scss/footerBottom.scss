@@ -1,0 +1,144 @@
+@media (max-width: 1366px) {
+  .footerBottom {
+    padding-top: 53px;
+    max-width: 1000px;
+
+    &__laptop {
+      display: none;
+    }
+
+    &__shopGoogle {
+      display: none;
+    }
+
+    &__logo {
+      padding-right: 22px;
+    }
+
+    &__address {
+      padding-right: 22px;
+    }
+
+    &__addressText {
+      padding-top: 4px;
+    }
+
+    &__icon {
+      padding-right: 5.5px;
+    }
+
+    &__icon:last-child {
+      padding-right: 13px;
+    }
+
+    &__icon icon-svg {
+      height: 48px;
+      width: 48px;
+    }
+
+  }
+
+  .footerLine__offer {
+    max-width: 1000px;
+    width: 100%;
+  }
+}
+
+.footerBottom {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 81px;
+  padding-bottom: 35px;
+  max-width: 1200px;
+  width: 100%;
+
+  &__logo {
+    align-self: flex-start;
+    padding-right: 36px;
+  }
+  &__address {
+    color: #333;
+    padding-right: 81px;
+    width: 321px;
+  }
+
+  &__addressPhone {
+    font-family: PT Sans Caption;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 321px;
+
+  }
+
+  &__addressText {
+    font-family: PT Sans Caption;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-top: 14px;
+    text-align: left;
+  }
+
+  &__social {
+    display: flex;
+  }
+
+  &__icon {
+    padding-right: 10px;
+  }
+
+  &__icon icon-svg {
+    height: 52px;
+    width: 52px;
+  }
+
+  &__icon .icon-svg{
+    height: 52px;
+    width: 52px;
+  }
+
+  &__icon:last-child {
+    padding-right: 43px;
+  }
+
+  &__shop {
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+}
+
+.footerLine {
+  color: #333333;
+  background-color: #F4F4F4;
+  font-family: PT Sans Caption;
+  font-size: 14px;
+  font-weight: 400;
+  height: 64px;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+
+  &__offer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  &__offerLink{
+    color: #333333;
+    display: flex;
+  }
+
+}
+
+

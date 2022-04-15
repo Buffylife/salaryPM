@@ -1,0 +1,141 @@
+@media (max-width: 1366px) {
+  .wonder {
+    padding-top: 110px;
+
+    &__itemReporting &__caption:nth-child(3) {
+      padding-bottom: 0;
+    }
+
+    &__caption {
+      padding-top: 59px;
+    }
+
+    &__captionText {
+      padding-left: 39px;
+    }
+
+    &__text{
+      height: 167px;
+    }
+
+    &__item {
+      padding-right: 51px;
+    }
+
+    &__item:nth-child(2) {
+      padding-right: 31px;
+    }
+
+    &__itemAccounting &__text{
+    max-width:290px ;
+    }
+
+    &__itemSystems {
+      max-width: 325px;
+    }
+  }
+
+}
+.wonder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 122px;
+  max-width: 1200px;
+  width: 100%;
+
+  &__title {
+    color: #333;
+    align-self: flex-start;
+    font-family: PT Sans Caption;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding-right: 81px;
+  }
+
+  &__caption {
+    align-items: center;
+    display: flex;
+    padding-top: 79px;
+    padding-bottom: 25px;
+  }
+  &__captionImg {
+    height: 47.67px;
+    width: 51px;
+  }
+
+  &__captionText {
+    color: #333;
+    font-family: PT Sans Caption;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    padding-left: 44px;
+    text-align: left;
+    max-width: 153px;
+    width: 100%;
+  }
+
+  &__captionTextSystems{
+    max-width: 245px;
+
+  }
+
+  &__itemAccounting {
+    display: flex;
+    justify-content: space-between;
+    max-width: 329px;
+    width: 100%;
+  }
+
+  &__itemSystems{
+    display: flex;
+    justify-content: space-between;
+    max-width: 345px;
+  }
+
+  &__itemReporting{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    color: #333333;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__link {
+    color: #ff6600;
+    font-family: PT Sans Caption;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    padding-top: 15px;
+    text-align: left;
+  }
+
+  &__contentFlavicon{
+    padding-left: 10px;
+  }
+
+}

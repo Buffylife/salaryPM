@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+"title": "1С: Зарплата и управление персоналом 8"
+})
+<body>
+
+@@include('html/header.html', {})
+<div class="container">
+@@include('html/salaryPersonnel.html', {})
+@@include('html/features.html', {})
+@@include('html/advantages.html', {})
+@@include('html/suitable.html', {})
+@@include('html/comparison.html', {})
+@@include('html/sliderSwiper.html', {})
+@@include('html/priceInput.html', {})
+@@include('html/reports.html', {})
+@@include('html/choose.html', {})
+@@include('html/wonder.html', {})
+<div class="priceInput priceInput_begin">
+  <div class="priceInput__title">Начните пользоваться 1С прямо сейчас</div>
+  <div class="priceInput__container">
+    <div class="priceInput__form">
+      <form class="priceInput__formInput" action="#" method="post">
+        <input class="priceInput__formText priceInput__formItem" type="text" placeholder="Имя*">
+      </form>
+      <form class="priceInput__formInput" action="#" method="post">
+        <select class="priceInput__select">
+          <option>*RU</option>
+          <option>EN</option>
+          <option>CHN</option>
+        </select>
+        <input class="priceInput__formPhone priceInput__formItem" type="phone" placeholder="+7">
+      </form>
+      <form class="priceInput__formInput" action="#" method="post">
+        <input class="priceInput__formEmail priceInput__formItem" type="email" placeholder="E-mail*">
+      </form>
+    </div>
+    <div class="priceInput__formFootnote">* Поля обязательные для заполнения</div>
+  </div>
+  <div class="priceInput__item">
+    <a href="" class="priceInput__btn">
+      Попробовать 14 дней бесплатно
+    </a>
+    <div class="priceInput__footnote">Начиная работу, я принимаю условия <a class="priceInput__footnoteLink" href="#">Оферты</a> </br>
+      и соглашаюсь на обработку персональных данных в соответствии с <a class="priceInput__footnoteLink" href="#">Политикой конфиденциальности</a>
+    </div>
+  </div>
+</div>
+</div>
+@@include('html/footerTop.html', {})
+@@include('html/footerBottom.html', {})
+
+<script src="js/app.min.js"></script>
+</body>
+</html>
