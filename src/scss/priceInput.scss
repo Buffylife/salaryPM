@@ -9,17 +9,77 @@
     &__item {
       padding-top: 30px;
     }
+
     &__formItem {
-      width: 246px;
+      max-width: 246px;
       padding: 0 20px;
+      width: 100%;
     }
-    &__btn {
+
+    &__btnLaptop {
       margin-bottom: 138px;
       width: 289px;
     }
-    &__footnote{
+
+    &__footnote {
       display: none;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  .priceInput {
+    padding-top: 97px;
+
+    &__title {
+      font-size: 24px;
+      line-height: 34px;
+    }
+
+    &__container {
+      max-width: 640px;
+      padding-top: 30px;
+      width: 100%;
+    }
+
+    &__form {
+      flex-direction: column;
+
+    }
+
+    &__formInput {
+      max-width: 640px;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+
+    &__formItem {
+      max-width: 640px;
+      width: 100%;
+    }
+
+    &__formFootnote {
+      padding-bottom: 40px;
+    }
+
+    &__footnote {
+      color: #6F6F6F;
+      display: block;
+      padding-left: 26px;
+      font-family: PT Sans;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      max-width: 326px;
+      width: 100%;
+    }
+
+    &__footnoteLink {
+      color: #fbb080;
+    }
+
   }
 }
 
@@ -77,7 +137,8 @@
     outline: none;
     padding: 0 27px;
     text-align: left;
-    width: 304px;
+    max-width: 304px;
+    width: 100%;
   }
 
   &__formItem:focus::-webkit-input-placeholder {
@@ -93,7 +154,8 @@
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     outline: none;
-    width: 219px;
+    max-width: 219px;
+    width: 100%;
   }
 
   &__formItem:focus {

@@ -108,3 +108,33 @@
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .salaryPersonnel {
+    padding-top: 60px;
+  }
+
+  .salaryPersonnel__content {
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .salaryPersonnel__title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .salaryPersonnel__price {
+    font-size: 24px;
+    line-height: 34px;
+    padding-top: 16px;
+  }
+
+  .salaryPersonnel__description {
+    padding: 20px 0 30px 0;
+  }
+
+  .salaryPersonnel__img {
+    display: none;
+  }
+}

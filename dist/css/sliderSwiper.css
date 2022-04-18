@@ -100,3 +100,9 @@
     padding-top: 45px;
   }
 }
+
+@media (max-width: 768px) {
+  .sliderSwiper {
+    display: none;
+  }
+}

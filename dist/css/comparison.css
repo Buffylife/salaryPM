@@ -28,9 +28,9 @@
 
 .comparison__grid {
   background: #FFFFFF;
+  border-radius: 8px 8px 10px 10px;
   -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
-  border-radius: 8px 8px 10px 10px;
 }
 
 .comparison__gridRow {
@@ -80,7 +80,8 @@
   letter-spacing: 0em;
   padding-left: 60px;
   padding-right: 158px;
-  width: 660px;
+  max-width: 660px;
+  width: 100%;
 }
 
 .comparison__gridMinus {
@@ -88,22 +89,32 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   color: #FF6600;
-  height: 3px;
-  max-width: 12px;
   padding-right: 128px;
+}
+
+.comparison__gridMinus .icon-svg {
+  height: 3px;
+  width: 12px;
 }
 
 .comparison__gridCheck {
   justify-items: flex-end;
-  height: 11px;
-  max-width: 16px;
   padding-left: 73px;
   padding-right: 123px;
+}
+
+.comparison__gridCheck .icon-svg {
+  height: 11px;
+  width: 16px;
 }
 
 .comparison__gridBorder {
   clear: inherit;
   border-bottom: 2px solid #EAEAEA;
+}
+
+.comparisonLap {
+  display: none;
 }
 
 .gridProperties {
@@ -113,5 +124,121 @@
 @media (max-width: 1366px) {
   .comparison {
     padding-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .comparison {
+    display: none;
+  }
+
+  .comparisonLap {
+    display: block;
+    padding-top: 70px;
+  }
+
+  .comparisonLap__title {
+    color: #333;
+    font-family: PT Sans Caption;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 30px;
+  }
+
+  .comparisonLap__grid {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 10px 10px;
+    padding-top: 40px;
+  }
+
+  .comparisonLap__caption {
+    color: #333;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    font-family: PT Sans Caption;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-left: 50px;
+    padding-bottom: 22px;
+  }
+
+  .comparisonLap__captionComp {
+    text-align: left;
+  }
+
+  .comparisonLap__gridRow {
+    border-bottom: 2px solid #EAEAEA;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 0.8fr 0.9fr;
+    grid-template-columns: 300px 0.8fr 0.9fr;
+    height: 65px;
+    padding-left: 50px;
+    text-align: center;
+  }
+
+  .comparisonLap__gridRow:last-child {
+    border-bottom: none;
+  }
+
+  .comparisonLap__gridText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #333;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .comparisonLap__gridMinus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .comparisonLap__gridMinus .icon-svg {
+    height: 3px;
+    width: 12px;
+  }
+
+  .comparisonLap__gridCheck {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 10px;
+  }
+
+  .comparisonLap__gridCheck .icon-svg {
+    height: 11px;
+    width: 16px;
   }
 }

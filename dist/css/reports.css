@@ -14,7 +14,8 @@
           justify-content: center;
   margin: 0 auto;
   padding-top: 110px;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .reports__title {
@@ -67,5 +68,11 @@
 @media (max-width: 1366px) {
   .reports {
     padding-top: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reports {
+    display: none;
   }
 }

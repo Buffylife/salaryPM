@@ -1,4 +1,9 @@
 @media (max-width: 1366px) {
+  .header {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+  }
 
   .container {
     max-width: 1000px;
@@ -30,6 +35,63 @@
   }
   .header__registration-reg{
     width: 150px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .header {
+    margin: 0 auto;
+    max-width: 640px;
+    width: 100%;
+  }
+  .container {
+    max-width: 640px;
+    width: 100%;
+  }
+
+  .header__logo {
+    max-width: 62px;
+    max-height: 40px;
+    padding-right: 40px;
+  }
+
+  .header__logo img {
+    height: 40px;
+    width: 62px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__regIcon {
+    display: inherit;
+    padding-left: 113px;
+  }
+
+  .header__registration{
+    padding-left: 10px;
+  }
+
+  .header__phone {
+    padding-left: 0px;
+    font-family: 'PT Sans Caption';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .header__iconMenu .icon-svg {
+    display: flex;
+    height: 16px;
+    padding-left: 34px;
+    width: 20px;
   }
 
 }
@@ -101,6 +163,7 @@
   font-weight: 700;
   color: #6F6F6F;
   padding-left: 38px;
+  white-space: nowrap;
 }
 
 .header__regIcon {
@@ -142,6 +205,10 @@
   letter-spacing: 0em;
   color: #fff;
   text-decoration: none;
+}
+
+.header__iconMenu .icon-svg {
+  display: none;
 }
 
 

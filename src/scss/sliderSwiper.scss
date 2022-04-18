@@ -3,6 +3,12 @@
     padding-top: 45px;
   }
 }
+@media (max-width: 768px) {
+  .sliderSwiper {
+    display: none;
+  }
+}
+
 .swiper {
   height: 537px;
   width: 915px;

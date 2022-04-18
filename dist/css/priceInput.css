@@ -70,7 +70,8 @@
   outline: none;
   padding: 0 27px;
   text-align: left;
-  width: 304px;
+  max-width: 304px;
+  width: 100%;
 }
 
 .priceInput__formItem:focus::-webkit-input-placeholder {
@@ -86,7 +87,8 @@
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   outline: none;
-  width: 219px;
+  max-width: 219px;
+  width: 100%;
 }
 
 .priceInput__formItem:focus {
@@ -192,16 +194,74 @@
   }
 
   .priceInput__formItem {
-    width: 246px;
+    max-width: 246px;
     padding: 0 20px;
+    width: 100%;
   }
 
-  .priceInput__btn {
+  .priceInput__btnLaptop {
     margin-bottom: 138px;
     width: 289px;
   }
 
   .priceInput__footnote {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .priceInput {
+    padding-top: 97px;
+  }
+
+  .priceInput__title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .priceInput__container {
+    max-width: 640px;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .priceInput__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .priceInput__formInput {
+    max-width: 640px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .priceInput__formItem {
+    max-width: 640px;
+    width: 100%;
+  }
+
+  .priceInput__formFootnote {
+    padding-bottom: 40px;
+  }
+
+  .priceInput__footnote {
+    color: #6F6F6F;
+    display: block;
+    padding-left: 26px;
+    font-family: PT Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    max-width: 326px;
+    width: 100%;
+  }
+
+  .priceInput__footnoteLink {
+    color: #fbb080;
   }
 }
