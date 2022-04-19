@@ -21,7 +21,8 @@
 .footerBottom__address {
   color: #333;
   padding-right: 81px;
-  width: 321px;
+  max-width: 321px;
+  width: 100%;
 }
 
 .footerBottom__addressPhone {
@@ -31,7 +32,7 @@
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  width: 321px;
+  max-width: 321px;
 }
 
 .footerBottom__addressText {
@@ -153,6 +154,58 @@
 
   .footerLine__offer {
     max-width: 1000px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerBottom {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 37px;
+    max-width: 640px;
+  }
+
+  .footerBottom__address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    max-width: 276px;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .footerBottom__addressPhone {
+    text-align: right;
+  }
+
+  .footerBottom__addressText {
+    text-align: right;
+  }
+
+  .footerBottom__social {
+    padding-top: 25px;
+  }
+
+  .footerBottom__shop {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding-top: 25px;
+  }
+
+  .footerLine__offer {
+    max-width: 640px;
     width: 100%;
   }
 }

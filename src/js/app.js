@@ -1,5 +1,4 @@
 import * as flsFunction from "./modules/functions.js";
-//import * as tabs from "./modules/suitableTabs.js";
 flsFunction.isWebp();
 
 import Swiper, { Navigation, Pagination } from 'swiper';
