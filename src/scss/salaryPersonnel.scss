@@ -44,6 +44,19 @@
 
 }
 
+@media (max-width: 320px){
+  .salaryPersonnel {
+    padding-top: 54px;
+    max-width: 288px;
+    width: 100%;
+
+    &__footnote {
+      font-size: 12px;
+    }
+  }
+
+}
+
 .salaryPersonnel {
   display: flex;
   padding-top: 136px;

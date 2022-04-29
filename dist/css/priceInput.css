@@ -63,7 +63,7 @@
   font-family: PT Sans;
   font-size: 18px;
   font-weight: 400;
-  height: 58px;
+  height: 40px;
   line-height: 29px;
   letter-spacing: 0.02em;
   margin-right: 24px;
@@ -164,7 +164,8 @@
   letter-spacing: 0em;
   color: #fff;
   text-decoration: none;
-  width: 319px;
+  max-width: 319px;
+  width: 100%;
 }
 
 .priceInput__footnote {
@@ -244,8 +245,15 @@
   }
 
   .priceInput__formItem {
+    font-size: 14px;
+    line-height: 24px;
     max-width: 640px;
     width: 100%;
+  }
+
+  .priceInput__select {
+    font-size: 14px;
+    line-height: 24px;
   }
 
   .priceInput__formFootnote {
@@ -276,5 +284,45 @@
 
   .priceInput__itemTablet {
     padding-bottom: 66px;
+  }
+}
+
+@media (max-width: 320px) {
+  .priceInput {
+    padding-top: 60px;
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .priceInput__formFootnote {
+    padding-bottom: 0;
+  }
+
+  .priceInput__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 25px;
+  }
+
+  .priceInput__select {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 16px;
+  }
+
+  .priceInput__formItem {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .priceInput__footnote {
+    padding-left: 0;
+    padding-top: 16px;
+  }
+
+  .priceInput__itemTablet {
+    padding-bottom: 41px;
   }
 }

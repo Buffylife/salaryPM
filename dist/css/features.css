@@ -129,3 +129,34 @@
     line-height: 28px;
   }
 }
+
+@media (max-width: 320px) {
+  .features {
+    max-width: 288px;
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  .features .col-1-x4 {
+    padding-top: 20px;
+  }
+
+  .features .col-2-x4 {
+    padding-top: 16px;
+  }
+
+  .features__listItem {
+    padding-top: 16px;
+  }
+
+  .features__listIcon {
+    max-height: 18px;
+    max-width: 18px;
+    padding-right: 32px;
+  }
+
+  .features__listText {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

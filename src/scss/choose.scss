@@ -86,6 +86,51 @@
   }
 }
 
+@media (max-width: 320px) {
+  .choose {
+    padding-top: 60px;
+
+    &__container {
+      padding-top: 0;
+    }
+
+    &__content {
+      align-items: center;
+      flex-direction: column;
+      max-width: 288px;
+      width: 100%;
+    }
+
+    &__contentItem {
+      align-items: center;
+      padding-top: 24px;
+    }
+
+    &__contentItem:nth-child(2n+1) {
+      padding-right: 0;
+    }
+
+    &__contentText {
+      font-size: 16px;
+      line-height: 26px;
+    }
+
+    &__contentCaption {
+      font-size: 24px;
+      line-height: 32px;
+    }
+
+    &__contentLink {
+      display: none;
+    }
+
+
+    &__contentText {
+      text-align: center;
+    }
+  }
+}
+
 
 .choose {
   display: flex;

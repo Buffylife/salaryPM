@@ -242,3 +242,9 @@
     width: 16px;
   }
 }
+
+@media (max-width: 320px) {
+  .comparisonLap {
+    display: none;
+  }
+}

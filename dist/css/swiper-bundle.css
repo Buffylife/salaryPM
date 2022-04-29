@@ -881,3 +881,9 @@ button.swiper-pagination-bullet {
   backface-visibility: hidden;
   overflow: hidden;
 }
+
+@media (max-width: 320px) {
+  :root {
+    --swiper-pagination-bullet-size: 12px;
+  }
+}

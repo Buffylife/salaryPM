@@ -254,6 +254,12 @@
   --swiper-pagination-bullet-vertical-gap: 6px;
   */
 }
+
+@media (max-width: 320px) {
+  :root {
+    --swiper-pagination-bullet-size: 12px;
+  }
+}
 .swiper-pagination {
   position: absolute;
   text-align: center;

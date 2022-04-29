@@ -197,3 +197,43 @@
     padding-right: 0px;
   }
 }
+
+@media (max-width: 320px) {
+  .wonder {
+    padding-top: 60px;
+  }
+
+  .wonder__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wonder__item {
+    padding-right: 0;
+  }
+
+  .wonder__itemSystems .wonder__captionFlover {
+    height: 33px;
+    width: 44px;
+  }
+
+  .wonder__itemSystems {
+    padding-top: 30px;
+  }
+
+  .wonder__caption {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+  }
+
+  .wonder__text {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}

@@ -171,7 +171,10 @@
   }
 
   .header__registration-reg {
-    width: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 150px;
+    width: 100%;
   }
 }
 
@@ -231,5 +234,85 @@
     height: 16px;
     padding-left: 34px;
     width: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .header__container {
+    border-bottom: none;
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 auto;
+  }
+
+  .header .header__logo {
+    max-width: 70px;
+    max-height: 45px;
+    padding-right: 24px;
+    padding-top: 20px;
+  }
+
+  .header__logo img {
+    width: 70px;
+    height: 45px;
+  }
+
+  .header__regIcon {
+    display: none;
+  }
+
+  .header__phone {
+    padding-left: 0px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .header__registration {
+    font-family: "PT Sans";
+    font-size: 14px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    padding-left: 78px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+  }
+
+  .header__registration-press {
+    color: #333;
+    padding-right: 13px;
+  }
+
+  .header__registration-reg {
+    color: #ff6600;
+    background: none;
+    border-radius: none;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    width: 100%;
+  }
+
+  .header__iconMenu {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
   }
 }

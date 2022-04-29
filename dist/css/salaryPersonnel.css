@@ -138,3 +138,15 @@
     display: none;
   }
 }
+
+@media (max-width: 320px) {
+  .salaryPersonnel {
+    padding-top: 54px;
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .salaryPersonnel__footnote {
+    font-size: 12px;
+  }
+}

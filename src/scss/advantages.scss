@@ -57,6 +57,38 @@
   }
 }
 
+@media (max-width: 320px){
+  .advantages {
+    padding-top: 60px;
+    max-width: 288px;
+    width: 100%;
+
+    &__item {
+      height: 100px;
+      max-width: 288px;
+      margin-right: 0px;
+      margin-bottom: 16px;
+    }
+
+    &__itemText {
+      font-size: 14px;
+      line-height: 24px;
+      padding-right: 19px;
+    }
+
+    &__itemIcon {
+      padding: 0 20px 0 20px;
+    }
+
+    &__itemIcon .icon-svg {
+      height: 32px;
+      width: 32px;
+    }
+
+
+  }
+}
+
 .advantages {
   display: flex;
   flex-direction: column;

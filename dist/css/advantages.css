@@ -155,3 +155,33 @@
     margin-right: auto;
   }
 }
+
+@media (max-width: 320px) {
+  .advantages {
+    padding-top: 60px;
+    max-width: 288px;
+    width: 100%;
+  }
+
+  .advantages__item {
+    height: 100px;
+    max-width: 288px;
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
+  .advantages__itemText {
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 19px;
+  }
+
+  .advantages__itemIcon {
+    padding: 0 20px 0 20px;
+  }
+
+  .advantages__itemIcon .icon-svg {
+    height: 32px;
+    width: 32px;
+  }
+}

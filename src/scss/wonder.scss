@@ -66,6 +66,39 @@
   }
 }
 
+@media (max-width: 320px) {
+  .wonder {
+    padding-top: 60px;
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__item {
+      padding-right: 0;
+    }
+
+    &__itemSystems &__captionFlover {
+      height: 33px;
+      width: 44px;
+    }
+
+    &__itemSystems {
+      padding-top: 30px;
+    }
+
+    &__caption {
+      align-items: center;
+      padding-top: 24px;
+      padding-bottom: 16px;
+    }
+
+    &__text{
+      height: fit-content;
+    }
+  }
+}
+
 .wonder {
   display: flex;
   flex-direction: column;
